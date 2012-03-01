@@ -1,0 +1,54 @@
+Script started on Mon 31 Oct 2011 09:51:27 PM EDT
+vburca@lab:~/cpsc352/Hw (11 04 2011)$ prolog
+GNU Prolog 1.3.0
+By Daniel Diaz
+Copyright (C) 1999-2007 Daniel Diaz
+| ?- ['knights64b vs2  2.pl']['knights64v2.pl'].
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:143: warning: singleton variables [T] for member/2
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:144: warning: singleton variables [Y] for member/2
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:147: warning: singleton variables [P] for not/1
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl compiled, 148 lines read - 11066 bytes written, 15 ms
+error: /home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:143: native code procedure member/2 cannot be redefined (ignored)
+
+yes
+| ?- path(2,m 154 )(2,15).
+
+2
+19
+36
+53
+63
+46
+31
+37
+54
+39
+45
+62
+47
+30
+15
+
+true ? 
+
+yes
+| ?- path(1,63)(1,63).
+
+1
+18
+35
+52
+62
+47
+53
+63
+
+true ? 
+
+yes
+| ?- 
+
+vburca@lab:~/cpsc352/Hw (11 04 2011)$ exit
+
+Script done on Mon 31 Oct 2011 09:52:45 PM EDT

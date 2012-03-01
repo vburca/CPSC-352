@@ -1,0 +1,163 @@
+Script started on Mon 31 Oct 2011 10:05:40 PM EDT
+vburca@lab:~/cpsc352/Hw (11 04 2011)$ prologg[K
+GNU Prolog 1.3.0
+By Daniel Diaz
+Copyright (C) 1999-2007 Daniel Diaz
+| ?- ['knight.her ur.pl']['knight.heur.pl'].
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/knight.heur.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/knight.heur.pl compiled, 40 lines read - 1498 bytes written, 11 ms
+
+yes
+| ?- star   etup.
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:143: warning: singleton variables [T] for member/2
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:144: warning: singleton variables [Y] for member/2
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:147: warning: singleton variables [P] for not/1
+/home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl compiled, 148 lines read - 11065 bytes written, 15 ms
+error: /home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:143: native code procedure member/2 cannot be redefined (ignored)
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/bf.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/bf.pl:46-50: warning: singleton variables [P] for path/3
+/home3/vburca/cpsc352/Hw (11 04 2011)/bf.pl:84-86: warning: singleton variables [Children] for get_children/5
+/home3/vburca/cpsc352/Hw (11 04 2011)/bf.pl compiled, 122 lines read - 9545 bytes written, 15 ms
+warning: /home3/vburca/cpsc352/Hw (11 04 2011)/bf.pl:42: redefining procedure path/3
+         /home3/vburca/cpsc352/Hw (11 04 2011)/knights64v2.pl:133: previous definition
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/pq.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/pq.pl:9: warning: singleton variables [T] for dequeue_pq/3
+/home3/vburca/cpsc352/Hw (11 04 2011)/pq.pl compiled, 30 lines read - 2721 bytes written, 12 ms
+compiling /home3/vburca/cpsc352/Hw (11 04 2011)/set.pl for byte code...
+/home3/vburca/cpsc352/Hw (11 04 2011)/set.pl:8: warning: singleton variables [E] for delete_if_in_set/3
+/home3/vburca/cpsc352/Hw (11 04 2011)/set.pl:38-39: warning: singleton variables [T] for set_diff/3
+/home3/vburca/cpsc352/Hw (11 04 2011)/set.pl compiled, 46 lines read - 4482 bytes written, 14 ms
+
+(4 ms) yes
+| ?- start(2,15)(2,15).
+Trying 2 Depth = 0 H=0
+Trying 8 Depth = 1 H=0
+Trying 17 Depth = 1 H=0
+Trying 12 Depth = 1 H=0
+Trying 19 Depth = 1 H=0
+Trying 9 Depth = 2 H=0
+Trying 13 Depth = 2 H=0
+Trying 4 Depth = 2 H=0
+Trying 36 Depth = 2 H=0
+Trying 6 Depth = 2 H=0
+Trying 22 Depth = 2 H=0
+Trying 29 Depth = 2 H=0
+Trying 0 Depth = 2 H=0
+Trying 32 Depth = 2 H=0
+Trying 11 Depth = 2 H=0
+Trying 27 Depth = 2 H=0
+Trying 34 Depth = 2 H=0
+Trying 18 Depth = 2 H=0
+Trying 25 Depth = 2 H=0
+Trying 40 Depth = 3 H=0
+Trying 33 Depth = 3 H=0
+Trying 1 Depth = 3 H=0
+Trying 49 Depth = 3 H=0
+Trying 35 Depth = 3 H=0
+Trying 44 Depth = 3 H=0
+Trying 5 Depth = 3 H=0
+Trying 37 Depth = 3 H=0
+Trying 39 Depth = 3 H=0
+Trying 42 Depth = 3 H=0
+Trying 51 Depth = 3 H=0
+Trying 46 Depth = 3 H=0
+Trying 53 Depth = 3 H=0
+Trying 10 Depth = 3 H=0
+Trying 14 Depth = 3 H=0
+Trying 21 Depth = 3 H=0
+Trying 28 Depth = 3 H=0
+Trying 7 Depth = 3 H=0
+Trying 23 Depth = 3 H=0
+Trying 30 Depth = 3 H=0
+Trying 24 Depth = 3 H=0
+Trying 3 Depth = 3 H=0
+Trying 26 Depth = 3 H=0
+Trying 63 Depth = 4 H=0
+Trying 31 Depth = 4 H=0
+Trying 47 Depth = 4 H=0
+The solution path is: 
+2
+12
+22
+5
+15
+
+true ? 
+
+(4 ms) yes
+| ?- start(1,63)(1,63).
+Trying 1 Depth = 0 H=0
+Trying 16 Depth = 1 H=0
+Trying 11 Depth = 1 H=0
+Trying 18 Depth = 1 H=0
+Trying 8 Depth = 2 H=0
+Trying 24 Depth = 2 H=0
+Trying 12 Depth = 2 H=0
+Trying 3 Depth = 2 H=0
+Trying 35 Depth = 2 H=0
+Trying 17 Depth = 2 H=0
+Trying 5 Depth = 2 H=0
+Trying 21 Depth = 2 H=0
+Trying 28 Depth = 2 H=0
+Trying 10 Depth = 2 H=0
+Trying 26 Depth = 2 H=0
+Trying 33 Depth = 2 H=0
+Trying 48 Depth = 3 H=0
+Trying 43 Depth = 3 H=0
+Trying 4 Depth = 3 H=0
+Trying 36 Depth = 3 H=0
+Trying 31 Depth = 3 H=0
+Trying 38 Depth = 3 H=0
+Trying 15 Depth = 3 H=0
+Trying 0 Depth = 3 H=0
+Trying 32 Depth = 3 H=0
+Trying 50 Depth = 3 H=0
+Trying 45 Depth = 3 H=0
+Trying 52 Depth = 3 H=0
+Trying 13 Depth = 3 H=0
+Trying 20 Depth = 3 H=0
+Trying 27 Depth = 3 H=0
+Trying 6 Depth = 3 H=0
+Trying 22 Depth = 3 H=0
+Trying 29 Depth = 3 H=0
+Trying 9 Depth = 3 H=0
+Trying 34 Depth = 3 H=0
+Trying 41 Depth = 3 H=0
+Trying 2 Depth = 3 H=0
+Trying 25 Depth = 3 H=0
+Trying 7 Depth = 4 H=0
+Trying 39 Depth = 4 H=0
+Trying 62 Depth = 4 H=0
+Trying 40 Depth = 4 H=0
+Trying 56 Depth = 4 H=0
+Trying 44 Depth = 4 H=0
+Trying 23 Depth = 4 H=0
+Trying 55 Depth = 4 H=0
+Trying 51 Depth = 4 H=0
+Trying 30 Depth = 4 H=0
+Trying 46 Depth = 4 H=0
+Trying 19 Depth = 4 H=0
+Trying 14 Depth = 4 H=0
+Trying 49 Depth = 4 H=0
+Trying 37 Depth = 4 H=0
+Trying 53 Depth = 4 H=0
+Trying 60 Depth = 4 H=0
+Trying 42 Depth = 4 H=0
+Trying 58 Depth = 4 H=0
+The solution path is: 
+1
+11
+21
+36
+46
+63
+
+true ? 
+
+(8 ms) yes
+| ?- 
+
+vburca@lab:~/cpsc352/Hw (11 04 2011)$ exit
+
+Script done on Mon 31 Oct 2011 10:06:15 PM EDT
